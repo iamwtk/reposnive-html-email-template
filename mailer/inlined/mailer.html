@@ -1,0 +1,1711 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Mailer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,800" rel="stylesheet">     
+    
+    
+    
+    
+    <!-- / HiDPI OUTLOOK FIX -->
+    <style>
+    /* iOS  FIX */
+    a[x-apple-data-detectors] {
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+        color: inherit !important;
+        text-decoration: none !important;
+    }
+        
+        
+        
+    /* OUTLOOK line-height FIX */
+    .ExternalClass * {line-height: 100%}  
+        
+    @media screen and (max-width: 600px) {
+        .full_width {
+            max-width: 100%!important;
+            width: 100%!important;
+            padding-bottom: 10px;
+        }
+        
+        .main_table {
+            max-width: 370px!important;
+        } 
+        
+        .sub-col.smaller,
+        .sub-col.bigger {
+            width: 50%!important;
+        }
+        
+    }    
+         
+    @media screen and (max-width: 390px) {
+        
+    }        
+    </style>    
+    <!-- HiDPI OUTLOOK FIX -->    
+    <!--[if gte mso 9]><xml>
+     <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+     </o:OfficeDocumentSettings>
+    </xml><![endif]-->  
+    <!-- / HiDPI OUTLOOK FIX -->
+</head> 
+<body bgcolor="#e8e8e8" style="height: 100%; width: 100%; background: #e8e8e8; margin: 0; padding: 0;">    
+    <!-- Body Table -->
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#e8e8e8" class="body_table" style="border-collapse: collapse;">
+    <tr>
+    <td align="center"> 
+        
+        <!-- OUTLOOK MAX-WIDTH -->    
+        <!--[if (gte mso 9)|(IE)]>
+        <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+        <tr>
+        <td align="center" valign="top" width="600">
+        <![endif]-->    
+
+        <!-- CENTER TABLE -->    
+        <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%" class="main_table" style="border-collapse: collapse; max-width: 600px;">
+        <tr>
+        <td align="center" class="main_table_body" style="padding: 40px 0;">
+            
+            <!-- HEADER -->
+            <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" class="header" style="border-collapse: collapse;">
+            <tr>            
+            <td align="center" class="inner orange" style="background: #f47b25; padding: 10px;">                
+                <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                <tr>                
+                <td align="left" class=" top_text font_fallback" style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-size: 13px; font-weight: 600; padding-bottom: 15px;">
+                     <span class="font" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #ffffff; font-size: 13px;">Si vous éprouvez de la difficulté à consulter ce courriel, <a href="[*display_url*]" style="text-decoration: underline; color: #ffffff; font-size: 13px;">cliquez ici</a>.</span>                  
+                </td>
+                </tr>
+                <tr>                
+                <td align="center">
+                    <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                    <tr>            
+                    <td align="left" class="logo">
+                        <a href="http://www.oaciq.com" style="text-decoration: none; color: inherit;">
+                        <img src="/images/logo.png" width="241" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                        </a>     
+                    </td>
+                    <td align="right">
+                        <table cellpadding="0" cellspacing="0" border="0" align="right" class="top_social" style="border-collapse: collapse;">
+                        <tr>            
+                        <td align="center" class="icon" style="padding: 0 5px;">
+                            <a href="http://www.oaciq.com" style="text-decoration: none; color: inherit;">
+                            <img src="/images/fb_icon.png" width="28" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                            </a> 
+                        </td>
+                        <td align="center" class="icon" style="padding: 0 5px;">
+                            <a href="http://www.oaciq.com" style="text-decoration: none; color: inherit;">
+                            <img src="/images/tw_icon.png" width="28" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                            </a> 
+                        </td>
+                        <td align="center" class="icon" style="padding: 0 5px;">
+                            <a href="http://www.oaciq.com" style="text-decoration: none; color: inherit;">
+                            <img src="/images/li_icon.png" width="28" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                            </a> 
+                        </td>
+                        </tr>
+                        </table>
+                    </td>
+                    </tr>
+                    </table>                     
+                </td>
+                </tr>
+                <tr>                
+                <td align="left" class="font_fallback tagline" style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-size: 12px; padding: 5px 0;">
+                     <span class="font" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #ffffff; font-size: 12px;">Bulletin des professionnels du courtage immobilier et hypothécaire du Québec</span>                  
+                </td>
+                </tr>
+                <tr>                
+                <td align="left" class="font_fallback date" style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-size: 12px; padding: 10px 0;">
+                     <span class="font" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #ffffff; font-size: 12px;">21 juin 2017</span>                  
+                </td>
+                </tr>
+                <tr>
+                <td align="left" class="separator" style="font-size: 0; padding: 5px 0;">
+                    <table cellpadding="0" cellspacing="0" border="0" align="left" width="45" style="border-collapse: collapse;">
+                    <tr>            
+                    <td align="center" class="inner" style="font-size: 0; padding: 1px 0; background: #ffffff;">
+                        &nbsp;
+                    </td>
+                    </tr>
+                    </table>
+                </td>
+                </tr>
+                <tr>                
+                <td align="left" class="font_fallback bottom_text" style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-size: 12px;">
+                    <span class="font" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #ffffff; font-size: 12px;">Pour accéder à toute l’information, veuillez <a href="http://www.oaciq.com" style="text-decoration: underline; color: #ffffff; font-size: 12px; font-weight: 600;">ouvrir une session</a> dans synbad.com avant de cliquer sur les 
+                    liens fournis.
+                    </span>            
+                </td>
+                </tr>
+                </table>               
+            </td>    
+            </tr>
+            <tr>
+            <td class="inner white" style="background: #ffffff; padding: 10px;">
+                <table cellpadding="0" cellspacing="0" width="100%" class="wrap" border="0" align="center" style="border-collapse: collapse;">
+                <tr>
+                <td align="center" class="font_fallback title_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-weight: 800; font-size: 22px; padding: 10px 0;">
+                    <span class="font title" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-weight: 800; font-size: 22px;">Bonjour Marie-Ève Brossard</span>
+                </td>
+                </tr>
+                <tr>
+                <td align="center" class="font_fallback subtitle_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-weight: 600; font-size: 19px; padding: 5px 0;">
+                    <span class="font subtitle" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-weight: 600; font-size: 19px;">Voici l’état d’avancement de votre PFCO</span>
+                </td>
+                </tr>
+                <tr>
+                <td class="row" style="font-size: 0; text-align: center;">
+                    <!--[if (gte mso 9)|(IE)]>
+                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                    <tr>
+                    <td align="center" valign="top" width="50%">
+                    <![endif]-->
+                    <div class="col-2" style="display: inline-block; font-size: 16px; vertical-align: top; width: 100%; min-width: 250px; max-width: 290px;">
+                        <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                        <tr>
+                        <td align="center" class="col_wrap">
+                            <table cellpadding="0" cellspacing="0" width="100%" class="content" border="0" align="center" style="border-collapse: collapse;">
+                            <tr>
+                            <td align="center" valign="top" class="sub-col bigger" style="vertical-align: top; width: 55%;">
+                                
+                                <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                                <tr>
+                                <td align="center" class="font_fallback big_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-weight: 800; font-size: 30px; padding: 5px 0;">
+                                    <span class="font big" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-weight: 800; font-size: 30px;">0/3</span>
+                                </td>                                    
+                                </tr>
+                                <tr>
+                                <td align="center" class="font_fallback small_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #231f1f; font-weight: 800; font-size: 12px; padding: 5px 0;">
+                                    <span class="font small" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #231f1f; font-weight: 800; font-size: 12px;">3 formations obligatoires
+                                    de l’OACIQ (6 UFC)
+                                    </span>
+                                </td>                                    
+                                </tr>
+                                </table>
+                                
+                            </td>
+                            <td align="center" valign="top" class="sub-col smaller" style="vertical-align: top; width: 45%;">
+                                
+                                <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                                <tr>
+                                <td align="center" class="font_fallback big_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-weight: 800; font-size: 30px; padding: 5px 0;">
+                                    <span class="font big" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-weight: 800; font-size: 30px;">0/18</span>
+                                </td>                                    
+                                </tr>
+                                <tr>
+                                <td align="center" class="font_fallback small_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #231f1f; font-weight: 800; font-size: 12px; padding: 5px 0;">
+                                    <span class="font small" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #231f1f; font-weight: 800; font-size: 12px;">UFC au choix</span>
+                                </td>                                    
+                                </tr>
+                                </table>
+                                
+                            </td>
+                            </tr>
+                            </table>
+                        </td>    
+                        </tr>
+                        </table>                    
+                    </div>            
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    <td  align="center" valign="top" width="50%">
+                    <![endif]--> 
+                    <div class="col-2" style="display: inline-block; font-size: 16px; vertical-align: top; width: 100%; min-width: 250px; max-width: 290px;">
+                        <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                        <tr>
+                        <td align="center" class="col_wrap">
+                            <table cellpadding="0" cellspacing="0" width="100%" class="content" border="0" align="center" style="border-collapse: collapse;">
+                            <tr>
+                            <td align="center" valign="top" class="sub-col" style="width: 50%; vertical-align: top;">
+                                
+                                <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                                <tr>
+                                <td align="center" class="font_fallback big_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-weight: 800; font-size: 30px; padding: 5px 0;">
+                                    <span class="font big" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-weight: 800; font-size: 30px;">NON</span>
+                                </td>                                    
+                                </tr>
+                                <tr>
+                                <td align="center" class="font_fallback small_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #231f1f; font-weight: 800; font-size: 12px; padding: 5px 0;">
+                                    <span class="font small" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #231f1f; font-weight: 800; font-size: 12px;">Programme terminé</span>
+                                </td>                                    
+                                </tr>
+                                </table>
+                                
+                            </td>
+                            <td align="center" valign="top" class="sub-col" style="width: 50%; vertical-align: top;">
+                                
+                                <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                                <tr>
+                                <td align="center" class="font_fallback big_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-weight: 800; font-size: 30px; padding: 5px 0;">
+                                    <span class="font big" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-weight: 800; font-size: 30px;">280</span>
+                                </td>                                    
+                                </tr>
+                                <tr>
+                                <td align="center" class="font_fallback small_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #231f1f; font-weight: 800; font-size: 12px; padding: 5px 0;">
+                                    <span class="font small" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #231f1f; font-weight: 800; font-size: 12px;">Jours restants</span>
+                                </td>                                    
+                                </tr>
+                                </table>
+                                
+                            </td>
+                            </tr>
+                            </table>
+                        </td>    
+                        </tr>
+                        </table>                    
+                    </div>                
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    </tr>
+                    </table>
+                    <![endif]-->                                        
+                </td>
+                </tr>
+                </table>
+            </td>
+            </tr>    
+            </table>
+            <!-- / HEADER -->
+            
+            <!-- SPACER -->
+            <table cellpadding="0" cellspacing="0" width="100%" class="spacer" border="0" align="center" style="border-collapse: collapse; font-size: 0;">
+            <tr>
+            <td class="inner" style="padding: 10px 0; font-size: 0;">
+               &nbsp;  
+            </td>
+            </tr>
+            </table>
+            <!-- / SPACER -->
+            
+            <!-- SECTION 1 -->
+            <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" class="section_1" style="border-collapse: collapse;">
+            <tr>            
+            <td align="center" class="inner white" style="background: #ffffff;">                
+                <table cellpadding="0" cellspacing="0" width="100%" class="wrap" border="0" align="center" style="border-collapse: collapse;">
+                <tr>                
+                <td align="left" class="full_title_wrap" style="padding: 20px 10px 20px 30px;">
+                    <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                    <tr>
+                    <td class="image_wrap" style="width: 22px;">
+                        <img src="/images/heart_icon.jpg" width="22" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                    </td>    
+                    <td align="left" class="font_fallback title_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #f47b25; font-size: 18px; font-weight: 800; padding-left: 8px;">
+                        <span class="font title" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #f47b25; font-size: 18px; font-weight: 800;">EN MANCHETTE CETTE ÉDITION</span>   
+                    </td>
+                    </tr>
+                    </table>       
+                </td>
+                </tr>
+                </table>
+            </td>
+            </tr>
+            <tr>
+            <td>
+                 <img src="/images/hero.jpg" width="600" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+            </td>
+            </tr>
+            <tr>
+            <td class="inner white bottom" style="background: #ffffff; padding: 20px 10px 20px 30px;">
+                <table cellpadding="0" cellspacing="0" width="100%" class="wrap" border="0" align="center" style="border-collapse: collapse;">
+                <tr>    
+                <td align="left" class="font_fallback title_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-size: 24px; font-weight: 800; padding-bottom: 20px;">
+                    <span class="font title" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-size: 24px; font-weight: 800;">Propriété près d’un cours d’eau : consultez le registre foncier!</span>   
+                </td>
+                </tr>
+                <tr>    
+                <td align="left" class="font_fallback text_1_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-size: 13px; font-weight: 400; padding-bottom: 20px;">
+                    <span class="font title text_1" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-size: 13px; font-weight: 400;">Votre client veut vendre une propriété près d’un cours d’eau? Ne vous basez pas sur les avis d’évaluation foncière ni sur d’anciens certificats de localisation pour établir la superficie du terrain à vendre, car ces documents ne tiennent pas compte de changements survenus après leur création.</span>   
+                </td>
+                </tr>
+                <tr>    
+                <td align="left" class="font_fallback text_2_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-size: 13px; font-weight: 400; padding-bottom: 20px;">
+                    <span class="font title text_2" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-size: 13px; font-weight: 400;">Voici comment procéder dans les règles de l’art afin de protéger les intérêts du vendeur ainsi que ceux de l’acheteur.</span>   
+                </td>
+                </tr>
+                <tr>
+                <td align="center">
+                    <!-- BUTTON -->
+                    <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                    <tr>
+                    <td align="center" class="button_wrap" style="padding: 10px 15px 10px 0;">
+                        <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                        <tr>
+                        <td align="center" colspan="2">
+                        <table cellpadding="0" cellspacing="0" border="0" align="center" style="border-collapse: collapse;">
+                        <tr>
+                        <td align="center" class="btn_outer font_fallback" style="font-family: Arial, Helvetica, sans-serif; padding: 12px 45px; background: #f47b25; font-weight: bold; border-radius: 500px;">
+                            <span><a href="http://www.oaciq.com" class="font" style="text-decoration: none; font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #ffffff; font-size: 12px; font-weight: bold; display: block;">EN SAVOIR PLUS</a></span>                            
+                        </td>    
+                        </tr>
+                        </table>
+                        </td>    
+                        </tr>
+                        </table>    
+                    </td>    
+                    </tr>
+                    </table>
+                    <!-- / BUTTON -->
+                </td>
+                </tr>
+                </table>
+            </td>
+            </tr>
+            </table>
+            <!-- / SECTION 1 -->
+            
+            <!-- SPACER -->
+            <table cellpadding="0" cellspacing="0" width="100%" class="spacer" border="0" align="center" style="border-collapse: collapse; font-size: 0;">
+            <tr>
+            <td class="inner" style="padding: 10px 0; font-size: 0;">
+               &nbsp;  
+            </td>
+            </tr>
+            </table>
+            <!-- / SPACER -->            
+            
+            <!-- SECTION 2 -->
+            <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" class="section_2" style="border-collapse: collapse;">            
+            <tr>
+            <td class="inner dark" style="background: #20201f; padding: 20px 10px 20px 30px;">
+                <table cellpadding="0" cellspacing="0" width="100%" class="wrap" border="0" align="center" style="border-collapse: collapse;">
+                <tr>    
+                <td align="left" class="font_fallback main_title_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-weight: 800; font-size: 24px; padding: 10px 0 5px;">
+                    <span class="font main_title" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #ffffff; font-weight: 800; font-size: 24px;">ESPACE DIRIGEANT D’AGENCE</span>   
+                </td>
+                </tr>
+                <tr>    
+                <td align="left" class="font_fallback tagline_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-weight: 400; font-size: 13px;">
+                    <span class="font title tagline_wrap" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #ffffff; font-weight: 400; font-size: 13px;">Pour accompagner vos courtiers dans leur pratique</span>   
+                </td>
+                </tr> 
+                <tr>
+                <td align="left" class="separator" style="padding: 15px 0 15px; font-size: 0;">
+                    <table cellpadding="0" cellspacing="0" border="0" align="left" width="55" style="border-collapse: collapse;">
+                    <tr>            
+                    <td align="center" class="inner" style="padding-bottom: 2px; font-size: 0; padding: 1px 0; background: #ffffff;">
+                        &nbsp;
+                    </td>
+                    </tr>
+                    </table>
+                </td>
+                </tr>
+                <tr>    
+                <td align="left" class="font_fallback title_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-weight: 600; font-size: 24px; padding: 10px 0 5px; line-height: 1.2;">
+                    <span class="font title" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #ffffff; font-weight: 600; font-size: 24px; line-height: 1.2;">Programme de formation continue : besoin de motiver votre équipe?</span>   
+                </td>
+                </tr>
+                <tr>    
+                <td align="left" class="font_fallback text_1_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-size: 13px; font-weight: 400; padding: 20px 0;">
+                    <span class="font title text_1" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #ffffff; font-size: 13px; font-weight: 400;">Certains courtiers se questionnent sur la façon d’entreprendre leur Programme de formation continue afin de le réaliser. Partagez ces quelques idées avec eux : elles sauront certainement les orienter dans la planification de leur développement professionnel!</span>   
+                </td>
+                </tr>                
+                <tr>
+                <td align="center">
+                    <!-- BUTTON -->
+                    <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                    <tr>
+                    <td align="center" class="button_wrap" style="padding: 10px 15px 10px 0;">
+                        <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                        <tr>
+                        <td align="center" colspan="2">
+                        <table cellpadding="0" cellspacing="0" border="0" align="center" style="border-collapse: collapse;">
+                        <tr>
+                        <td align="center" class="btn_outer font_fallback" style="font-family: Arial, Helvetica, sans-serif; padding: 12px 45px; background: #f47b25; font-weight: bold; border-radius: 500px;">
+                            <span><a href="http://www.oaciq.com" class="font" style="text-decoration: none; font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #ffffff; font-size: 12px; font-weight: bold; display: block;">RÉALISER VOTRE PROGRAMME</a></span>                            
+                        </td>    
+                        </tr>
+                        </table>
+                        </td>    
+                        </tr>
+                        </table>    
+                    </td>    
+                    </tr>
+                    </table>
+                    <!-- / BUTTON -->
+                </td>
+                </tr>
+                </table>
+            </td>
+            </tr>
+            </table>
+            <!-- / SECTION 2 -->
+            
+            <!-- SPACER -->
+            <table cellpadding="0" cellspacing="0" width="100%" class="spacer" border="0" align="center" style="border-collapse: collapse; font-size: 0;">
+            <tr>
+            <td class="inner" style="padding: 10px 0; font-size: 0;">
+               &nbsp;  
+            </td>
+            </tr>
+            </table>
+            <!-- / SPACER --> 
+            
+            <!-- SECTION 3 -->
+            <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" class="section_3" style="border-collapse: collapse;">
+            <tr>
+            <td class="row dark" style="font-size: 0; text-align: center; background: #20201f;">
+                <!--[if (gte mso 9)|(IE)]>
+                <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                <tr>
+                <td align="center" valign="top" width="50%">
+                <![endif]-->
+                <div class="col-2" style="display: inline-block; font-size: 16px; vertical-align: top; width: 100%; max-width: 300px; min-width: 250px;">
+                    <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                    <tr>
+                    <td align="center" class="image">
+                        <img src="/images/woman.jpg" width="300" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                    </td>    
+                    </tr>
+                    </table>                    
+                </div>            
+                <!--[if (gte mso 9)|(IE)]>
+                </td>
+                <td  align="center" valign="top" width="50%">
+                <![endif]--> 
+                <div class="col-2" style="display: inline-block; font-size: 16px; vertical-align: top; width: 100%; max-width: 300px; min-width: 250px;">
+                    <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                    <tr>
+                    <td align="center" class="col_wrap" style="padding: 50px 20px 0;">
+                        <table cellpadding="0" cellspacing="0" width="100%" class="content" border="0" align="center" style="border-collapse: collapse;">
+                        <tr>
+                        <td align="center">
+
+                            <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                            <tr>    
+                            <td align="left" class="font_fallback title_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-weight: 600; font-size: 22px; line-height: 1.2; padding: 0 0 20px;">
+                                <span class="font title" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #ffffff; font-weight: 600; font-size: 22px; line-height: 1.2;">Un message de notre <br>Présidente et chef de <br>la direction</span>   
+                            </td>
+                            </tr>
+                            <tr>    
+                            <td align="left" class="font_fallback text_1_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-size: 13px; font-weight: 400; padding: 0 0 20px;">
+                                <span class="font title text_1" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #ffffff; font-size: 13px; font-weight: 400;">Le 4 mai dernier, la Cour du Québec <br>a rendu une décision concernant la responsabilité des courtiers dans le cadre d’un mandat visant la location d’un immeuble.</span>   
+                            </td>
+                            </tr>
+                            <tr>    
+                            <td align="left" class="font_fallback text_2_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-size: 13px; font-weight: 400; padding: 0 0 20px;">
+                                <span class="font title text_2" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #ffffff; font-size: 13px; font-weight: 400;">Dans le dossier, les locataires, qui avaient signé un bail de 33 mois, avaient quitté leur logement après seulement 12 mois, laissant derrière eux un appartement saccagé. </span>   
+                            </td>
+                            </tr>
+                            </table>
+
+                        </td>                       
+                        </tr>
+                        </table>
+                    </td>    
+                    </tr>
+                    </table>                    
+                </div>                
+                <!--[if (gte mso 9)|(IE)]>
+                </td>
+                </tr>
+                </table>
+                <![endif]-->                                        
+            </td>
+            </tr>
+            </table>
+            <!-- / SECTION 3 -->
+            
+            <!-- SPACER -->
+            <table cellpadding="0" cellspacing="0" width="100%" class="spacer" border="0" align="center" style="border-collapse: collapse; font-size: 0;">
+            <tr>
+            <td class="inner" style="padding: 10px 0; font-size: 0;">
+               &nbsp;  
+            </td>
+            </tr>
+            </table>
+            <!-- / SPACER --> 
+            
+            <!-- SECTION 4 -->
+            <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" class="section_4" style="border-collapse: collapse;">           
+            <tr>
+            <td class="background" background="/images/background_1.jpg" style="background-size: cover; background-position: center;">
+            <!-- OUTLOOK BG IMAGE -->    
+            <!--[if (gte mso 9)|(IE)]>
+            <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:99px">
+            <v:fill type="frame" src="/images/background_1.jpg" />
+            <v:textbox inset="0,0,0,0">
+            <![endif]-->                
+            <div>    
+            <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+            <tr>
+            <td class="inner" style="padding: 30px 10px 20px 30px;">    
+            
+                <table cellpadding="0" cellspacing="0" width="100%" class="wrap" border="0" align="center" style="border-collapse: collapse;">
+                <tr>
+                <!--[if (gte mso 9)|(IE)]>                   
+                <td style="font-size:0" width="30">
+                &nbsp;
+                </td>                
+                <![endif]-->    
+                <td align="left" class="font_fallback title_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-size: 22px; font-weight: 800; padding: 0 0 10px;">
+                    <span class="font title" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #ffffff; font-size: 22px; font-weight: 800;">Capsule - Info OACIQ</span>   
+                </td>
+                </tr>
+                <tr>
+                <!--[if (gte mso 9)|(IE)]>                   
+                <td style="font-size:0" width="30">
+                &nbsp;
+                </td>                
+                <![endif]-->    
+                <td align="left" class="separator" style="font-size: 0; padding: 5px 0 0;">
+                    <table cellpadding="0" cellspacing="0" border="0" align="left" width="50" style="border-collapse: collapse;">
+                    <tr>            
+                    <td align="center" class="inner" style="background: #ffffff; font-size: 0; padding: 0 0 2px 0;"> 
+                        &nbsp; 
+                    </td>
+                    </tr>
+                    </table>
+                </td>
+                </tr>
+                </table>
+            </td>
+            </tr>
+            </table>    
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </v:textbox>
+            </v:rect>
+            <![endif]--> 
+            <!-- / OUTLOOK BG IMAGE -->
+                
+            </td>
+            </tr>
+            <tr>
+            <td class="inner white" style="background: #ffffff; padding: 20px 10px 20px 30px;">
+                <table cellpadding="0" cellspacing="0" width="100%" class="wrap" border="0" align="center" style="border-collapse: collapse;">
+                <tr>    
+                <td align="left" class="font_fallback main_title_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-size: 24px; font-weight: 800; padding: 0 0 10px;">
+                    <span class="font main_title" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-size: 24px; font-weight: 800;">Rappel des règles de représentation</span>   
+                </td>
+                </tr>
+                <tr>    
+                <td align="left" class="font_fallback text_1_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-size: 13px; font-weight: 400; padding: 0 0 20px;">
+                    <span class="font title text_1" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-size: 13px; font-weight: 400;">Info OACIQ reçoit annuellement quelques dizaines de milliers de demandes, dont certaines portent sur des sujets qui soulèvent plus de questions que d’autres. </span>   
+                </td>
+                </tr>                 
+                <tr>    
+                <td align="left" class="font_fallback subtitle_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-size: 14px; font-weight: 800;">
+                    <span class="font subtitle" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-size: 14px; font-weight: 800;">Au menu cette semaine :</span>   
+                </td>
+                </tr>
+                <tr>    
+                <td align="left" class="font_fallback text_2_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-size: 13px; font-weight: 400; padding: 0 0 20px;">
+                    <span class="font title text_2" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-size: 13px; font-weight: 400;">Des courtiers appellent régulièrement le centre de renseignements en mentionnant qu’ils « représentent les deux parties à la transaction » et qu’ils désirent mieux comprendre les règles de représentation.</span>   
+                </td>
+                </tr>
+                <tr>    
+                <td align="left" class="font_fallback cta_text_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-size: 18px; font-weight: 800; padding: 0 0 10px;">
+                    <span class="font cta_text" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-size: 18px; font-weight: 800;">Qui représentez-vous?</span>   
+                </td>
+                </tr>
+                <tr>
+                <td align="center">
+                    <!-- BUTTON -->
+                    <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                    <tr>
+                    <td align="center" class="button_wrap" style="padding: 10px 15px 10px 0;">
+                        <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                        <tr>
+                        <td align="center" colspan="2">
+                        <table cellpadding="0" cellspacing="0" border="0" align="center" style="border-collapse: collapse;">
+                        <tr>
+                        <td align="center" class="btn_outer font_fallback" style="font-family: Arial, Helvetica, sans-serif; padding: 12px 45px; background: #f47b25; font-weight: bold; border-radius: 500px;">
+                            <span><a href="http://www.oaciq.com" class="font" style="text-decoration: none; font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #ffffff; font-size: 12px; font-weight: bold; display: block;">LIRE LA SUITE DE L’ARTICLE</a></span>                           
+                        </td>    
+                        </tr>
+                        </table>
+                        </td>    
+                        </tr>
+                        </table>    
+                    </td>    
+                    </tr>
+                    </table>
+                    <!-- / BUTTON -->
+                </td>
+                </tr>
+                </table>
+            </td>
+            </tr>
+            </table>
+            <!-- / SECTION 4 -->
+            
+            <!-- SPACER -->
+            <table cellpadding="0" cellspacing="0" width="100%" class="spacer" border="0" align="center" style="border-collapse: collapse; font-size: 0;">
+            <tr>
+            <td class="inner" style="padding: 10px 0; font-size: 0;">
+               &nbsp;  
+            </td>
+            </tr>
+            </table>
+            <!-- / SPACER --> 
+            
+            <!-- SECTION 5 -->
+            <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" class="section_5" style="border-collapse: collapse;">            
+            <tr>
+            <td class="inner white" style="background: #ffffff; padding: 30px 10px 20px 30px;">
+                <table cellpadding="0" cellspacing="0" width="100%" class="wrap" border="0" align="center" style="border-collapse: collapse;">
+                <tr>    
+                <td align="left" class="font_fallback main_title_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-weight: 800; font-size: 24px; line-height: 1.2; padding: 0 0 10px;">
+                    <span class="font main_title" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-weight: 800; font-size: 24px; line-height: 1.2;"><span class="light" style="font-weight: 800; font-size: 24px; line-height: 1.2; color: #c2c2c2;">Capsule -</span> Pratiques professionnelles</span>   
+                </td>
+                </tr>                
+                <tr>
+                <td align="left" class="separator" style="font-size: 0; padding: 5px 0;">
+                    <table cellpadding="0" cellspacing="0" border="0" align="left" width="50" style="border-collapse: collapse;">
+                    <tr>            
+                    <td align="center" class="inner" style="padding-bottom: 2px; font-size: 0; padding: 1px 0; background: #ffffff;">
+                        &nbsp;
+                    </td>
+                    </tr>
+                    </table>
+                </td>
+                </tr>
+                <tr>    
+                <td align="left" class="font_fallback title_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-weight: 800; font-size: 24px; line-height: 1.2; padding: 20px 0;">
+                    <span class="font title" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-weight: 800; font-size: 24px; line-height: 1.2;">Connaissez-vous les limites de votre droit d’exercice?</span>   
+                </td>
+                </tr>
+                <tr>    
+                <td align="left" class="font_fallback text_1_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-size: 13px; font-weight: 400; padding: 0 0 20px;">
+                    <span class="font title text_1" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-size: 13px; font-weight: 400;">Un détenteur d’un permis restreint doit respecter les limites de son droit d’exercice. <br>Savez-vous quelles sont les restrictions associées à votre permis? </span>   
+                </td>
+                </tr>
+                <tr>    
+                <td align="left" class="font_fallback text_2_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-size: 13px; font-weight: 400; padding: 0 0 20px;">
+                    <span class="font title text_2" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-size: 13px; font-weight: 400;">À ce sujet, nous vous invitons à consulter les références suivantes sur synbad.com :</span>   
+                </td>
+                </tr>
+                <tr>    
+                <td align="left" class="font_fallback list_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-size: 13px; font-weight: 400; padding: 0 30px 20px;">
+                     <ul style="Margin:0; padding:0;">
+                        <li style="Margin:0 0 1em; list-style:disc inside; mso-special-format:bullet;">
+                           <span class="font" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-size: 13px; font-weight: 400;">Article <a href="http://www.oaciq.com" style="text-decoration: underline; color: #f47b25; font-style: italic;">Connaissez-vous les limites de votre droit d’exercice?</a></span>
+                        </li>
+                        <li style="Margin:0 0 1em; list-style:disc inside; mso-special-format:bullet;">
+                            <span class="font" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-size: 13px; font-weight: 400;">Réponse à la question 23 de la <a href="http://www.oaciq.com" style="text-decoration: underline; color: #f47b25; font-style: italic;">Foire aux questions sur la Loi sur le courtage immobilier</a> : « Est-ce qu’un courtier restreint au courtage résidentiel peut signer, en co-inscription avec un courtier restreint au courtage commercial ou un courtier de plein exercice, un contrat de courtage en matière commerciale? » </span>
+                        </li>
+                    </ul>
+ 
+                </td>
+                </tr>     
+                </table>
+            </td>
+            </tr>
+            </table>
+            <!-- / SECTION 5 -->
+            
+            <!-- SPACER -->
+            <table cellpadding="0" cellspacing="0" width="100%" class="spacer" border="0" align="center" style="border-collapse: collapse; font-size: 0;">
+            <tr>
+            <td class="inner" style="padding: 10px 0; font-size: 0;">
+               &nbsp;  
+            </td>
+            </tr>
+            </table>
+            <!-- / SPACER -->
+            
+            <!-- SECTION 6 -->
+            <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" class="section_6" style="border-collapse: collapse;">            
+            <tr>
+            <td class="inner white" style="background: #ffffff; padding: 30px 10px 20px 30px;">
+                <table cellpadding="0" cellspacing="0" width="100%" class="wrap" border="0" align="center" style="border-collapse: collapse;">
+                <tr>    
+                <td align="left" class="font_fallback main_title_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-weight: 800; font-size: 24px; line-height: 1.2; padding: 0 0 10px;">
+                    <span class="font main_title" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-weight: 800; font-size: 24px; line-height: 1.2;"><span class="light" style="font-weight: 800; font-size: 24px; line-height: 1.2; color: #c2c2c2;">Capsule -</span> Courtage hypothécaire</span>   
+                </td>
+                </tr>                
+                <tr>
+                <td align="left" class="separator" style="font-size: 0; padding: 5px 0;">
+                    <table cellpadding="0" cellspacing="0" border="0" align="left" width="50" style="border-collapse: collapse;">
+                    <tr>            
+                    <td align="center" class="inner" style="padding-bottom: 2px; font-size: 0; padding: 1px 0; background: #ffffff;">
+                        &nbsp;
+                    </td>
+                    </tr>
+                    </table>
+                </td>
+                </tr>
+                <tr>    
+                <td align="left" class="font_fallback title_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-weight: 800; font-size: 22px; line-height: 1.2; padding: 20px 0;">
+                    <span class="font title" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-weight: 800; font-size: 22px; line-height: 1.2;">Pour prévenir le courtage hypothécaire illégal et protéger les parties : l’OACIQ demande la collaboration des institutions prêteuses</span>   
+                </td>
+                </tr>
+                <tr>    
+                <td align="left" class="font_fallback text_1_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-size: 13px; font-weight: 400; padding: 0 0 20px;">
+                    <span class="font title text_1" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-size: 13px; font-weight: 400;">En janvier dernier, l’OACIQ a fait parvenir à la majorité des institutions financières une lettre sollicitant leur collaboration afin de prévenir certaines pratiques de courtage hypothécaire illégales</span>   
+                </td>
+                </tr>
+                <tr>
+                <td align="center">
+                    <!-- BUTTON -->
+                    <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                    <tr>
+                    <td align="center" class="button_wrap" style="padding: 10px 15px 10px 0;">
+                        <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                        <tr>
+                        <td align="center" colspan="2">
+                        <table cellpadding="0" cellspacing="0" border="0" align="center" style="border-collapse: collapse;">
+                        <tr>
+                        <td align="center" class="btn_outer font_fallback" style="font-family: Arial, Helvetica, sans-serif; padding: 12px 45px; background: #f47b25; font-weight: bold; border-radius: 500px;">
+                            <span><a href="http://www.oaciq.com" class="font" style="text-decoration: none; font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #ffffff; font-size: 12px; font-weight: bold; display: block;">LIRE LA SUITE DE L’ARTICLE</a></span>                           
+                        </td>    
+                        </tr>
+                        </table>
+                        </td>    
+                        </tr>
+                        </table>    
+                    </td>    
+                    </tr>
+                    </table>
+                    <!-- / BUTTON -->
+                </td>
+                </tr>    
+                </table>
+            </td>
+            </tr>
+            </table>
+            <!-- / SECTION 6 -->
+            
+            <!-- SPACER -->
+            <table cellpadding="0" cellspacing="0" width="100%" class="spacer" border="0" align="center" style="border-collapse: collapse; font-size: 0;">
+            <tr>
+            <td class="inner" style="padding: 10px 0; font-size: 0;">
+               &nbsp;  
+            </td>
+            </tr>
+            </table>
+            <!-- / SPACER -->
+            
+            <!-- SECTION 7 -->
+            <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" class="section_7" style="border-collapse: collapse;">
+            <tr>
+            <td class="inner blue" style="background: #1b77bd; padding: 10px;">
+                <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                <tr>
+                <td class="row" style="font-size: 0; text-align: center;">
+                    <!--[if (gte mso 9)|(IE)]>
+                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                    <tr>
+                    <td align="center" valign="top" width="40%">
+                    <![endif]-->
+                    <div class="col-social-title" style="min-width: 265px; max-width: 265px; display: inline-block; font-size: 16px; vertical-align: top; width: 100%;">
+                        <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                        <tr>    
+                        <td align="left" class="font_fallback title_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-weight: 800; font-size: 24px; padding: 20px 0 0 20px; line-height: 1.2;">
+                            <span class="font title" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #ffffff; font-weight: 800; font-size: 24px; line-height: 1.2;">MÉDIAS SOCIAUX</span>   
+                        </td>
+                        </tr>
+                        <tr>    
+                        <td align="left" class="font_fallback tagline_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-weight: 400; font-size: 16px; padding: 0 0 0 20px; line-height: 1.2;">
+                            <span class="font tagline" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #ffffff; font-weight: 400; font-size: 16px; line-height: 1.2;">Partager avec vos réseaux!</span>   
+                        </td>
+                        </tr>    
+                        </table>                    
+                    </div>            
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    <td  align="center" valign="top" width="60%">
+                    <![endif]--> 
+                    <div class="col-social-img" style="min-width: 315px; max-width: 315px; display: inline-block; font-size: 16px; vertical-align: top; width: 100%;">
+                        <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                        <tr>
+                        <td align="center" class="img">
+                             <img src="/images/social_header.png" width="315" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                        </td>    
+                        </tr>
+                        </table>                    
+                    </div>                
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    </tr>
+                    </table>
+                    <![endif]-->                                        
+                </td>
+                </tr>
+                <tr>
+                <td class="row offset" style="font-size: 0; text-align: center; padding: 15px 0 0;">
+                    <!--[if (gte mso 9)|(IE)]>
+                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                    <tr>
+                    <td align="center" valign="top" width="50%">
+                    <![endif]-->
+                    <div class="col-2" style="display: inline-block; font-size: 16px; vertical-align: top; width: 100%; min-width: 250px; max-width: 290px;">
+                        <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                        <tr>
+                        <td align="center" class="module_wrap" style="padding: 5px;">
+                            <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" class="module big" style="border-collapse: collapse; background: #ffffff;">
+                            <tr>
+                            <td align="left" class="font_fallback top_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-weight: 400; font-size: 13px; padding: 10px 15px 0;">
+                                <span class="font top" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-weight: 400; font-size: 13px;">À partager</span>   
+                            </td>
+                            </tr>
+                            <tr>    
+                            <td align="left" class="font_fallback hashtag_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #1b77bd; font-weight: 800; font-size: 32px; padding: 0 15px 20px;">
+                                <span class="font hashtag" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #1b77bd; font-weight: 800; font-size: 32px;">#1CHOSE</span>   
+                            </td>
+                            </tr>
+                            <tr>    
+                            <td align="left" class="font_fallback title_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #f47b25; font-weight: 800; font-size: 15px; padding: 0 15px 10px; line-height: 1.2;">
+                                <span class="font title" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #f47b25; font-weight: 800; font-size: 15px; line-height: 1.2;">Conseil pour une visite <br>libre réussie</span>   
+                            </td>
+                            </tr>
+                            <tr>    
+                            <td align="left" class="font_fallback text_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-weight: 400; font-size: 13px; padding: 0 15px 10px;">
+                                <span class="font text" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-weight: 400; font-size: 13px;">Même si la majorité des visites libres se déroulent sans problème, mieux vaut être prudent pour éviter des mauvaises surprises. Voici un rappel de quelques précautions à prendre avant que la visite libre ne commence. 
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                </span>   
+                            </td>
+                            </tr>
+                            <!--[if (gte mso 9)|(IE)]>
+                            <tr>    
+                            <td style="font-size:0;padding-bottom:5px;">
+                            &nbsp;
+                            </td>
+                            </tr>
+                            <![endif]-->
+                                
+                            <tr>    
+                            <td align="left" class="social_share_wrap" style="padding: 5px 15px 10px;">
+
+                                <!-- SOCIAL SHARE -->
+                                <table cellpadding="0" cellspacing="0" border="0" align="left" class="social_share" style="border-collapse: collapse;">
+                                <tr>            
+                                <td align="center" class="icon">
+                                    <a href="http://www.oaciq.com" style="text-decoration: none; color: inherit;">
+                                    <img src="/images/fb_share_icon.jpg" width="44" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                                    </a> 
+                                </td>
+                                <td align="center" class="icon">
+                                    <a href="http://www.oaciq.com" style="text-decoration: none; color: inherit;">
+                                    <img src="/images/tw_share_icon.jpg" width="45" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                                    </a> 
+                                </td>
+                                <td align="center" class="icon">
+                                    <a href="http://www.oaciq.com" style="text-decoration: none; color: inherit;">
+                                    <img src="/images/li_share_icon.jpg" width="45" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                                    </a> 
+                                </td>
+                                </tr>
+                                </table>
+                                <!-- / SOCIAL SHARE -->
+
+                            </td>
+                            </tr>
+                            </table>
+                        </td>
+                        </tr>
+                        </table>                    
+                    </div>            
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    <td  align="center" valign="top" width="50%">
+                    <![endif]--> 
+                    <div class="col-2" style="display: inline-block; font-size: 16px; vertical-align: top; width: 100%; min-width: 250px; max-width: 290px;">
+                        <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                        <tr>
+                        <td align="center" class="top_module module_wrap" style="padding: 5px;">
+                            <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" class="module" style="border-collapse: collapse; background: #ffffff;">
+                            <tr>    
+                            <td align="left" class="font_fallback top_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-weight: 400; font-size: 13px; padding: 10px 15px 0;">
+                                <span class="font top" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-weight: 400; font-size: 13px;">À partager</span>   
+                            </td>
+                            </tr>
+                            <tr>    
+                            <td align="left" class="font_fallback link_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-weight: 800; font-size: 16px; padding: 0 15px 8px; line-height: 1.2;">
+                                <span class="font link" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-weight: 800; font-size: 16px; line-height: 1.2;">Protégez-vous.ca</span>   
+                            </td>
+                            </tr>
+                            <tr>    
+                            <td align="left" class="font_fallback title_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #f47b25; font-weight: 800; font-size: 15px; padding: 0 15px 10px; line-height: 1.2;">
+                                <span class="font title" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #f47b25; font-weight: 800; font-size: 15px; line-height: 1.2;">Connaissez-vous bien la Loi sur le courtage immobilier?</span>   
+                            </td>
+                            </tr>
+                            <tr>    
+                            <td align="left" class="font_fallback text_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-weight: 400; font-size: 13px; padding: 0 15px 10px;">
+                                <span class="font text" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-weight: 400; font-size: 13px;">Informez les consommateurs des protections offertes par l’OACIQ.</span>   
+                            </td>
+                            </tr>
+                            <tr>    
+                            <td align="left" class="social_share_wrap" style="padding: 0 15px 10px;">
+
+                                <!-- SOCIAL SHARE -->
+                                <table cellpadding="0" cellspacing="0" border="0" align="left" class="social_share" style="border-collapse: collapse;">
+                                <tr>            
+                                <td align="center" class="icon">
+                                    <a href="http://www.oaciq.com" style="text-decoration: none; color: inherit;">
+                                    <img src="/images/fb_share_icon.jpg" width="44" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                                    </a> 
+                                </td>
+                                <td align="center" class="icon">
+                                    <a href="http://www.oaciq.com" style="text-decoration: none; color: inherit;">
+                                    <img src="/images/tw_share_icon.jpg" width="45" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                                    </a> 
+                                </td>
+                                <td align="center" class="icon">
+                                    <a href="http://www.oaciq.com" style="text-decoration: none; color: inherit;">
+                                    <img src="/images/li_share_icon.jpg" width="45" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                                    </a> 
+                                </td>
+                                </tr>
+                                </table>
+                                <!-- / SOCIAL SHARE -->
+
+                            </td>
+                            </tr>
+                            </table>  
+                        </td>    
+                        </tr>
+                        <tr>
+                        <td align="center" class="bottom_module module_wrap" style="padding: 5px;">
+                             <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" class="module" style="border-collapse: collapse; background: #ffffff;">
+                            <tr>    
+                            <td align="left" class="font_fallback top_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-weight: 400; font-size: 13px; padding: 10px 15px 0;">
+                                <span class="font top" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-weight: 400; font-size: 13px;">À partager</span>   
+                            </td>
+                            </tr>
+                            <tr>    
+                            <td align="left" class="font_fallback link_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-weight: 800; font-size: 16px; padding: 0 15px 8px; line-height: 1.2;">
+                                <span class="font link" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-weight: 800; font-size: 16px; line-height: 1.2;">Lacopropriété.info</span>   
+                            </td>
+                            </tr>
+                            <tr>    
+                            <td align="left" class="font_fallback title_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #f47b25; font-weight: 800; font-size: 15px; padding: 0 15px 10px; line-height: 1.2;">
+                                <span class="font title" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #f47b25; font-weight: 800; font-size: 15px; line-height: 1.2;">Divise ou indivise?</span>   
+                            </td>
+                            </tr>
+                            <tr>    
+                            <td align="left" class="font_fallback text_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-weight: 400; font-size: 13px; padding: 0 15px 10px;">
+                                <span class="font text" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-weight: 400; font-size: 13px;">Pour aider vos clients à distinguer ces deux types de copropriétés !<br><br></span>   
+                            </td>
+                            </tr>
+                            <tr>    
+                            <td align="left" class="social_share_wrap" style="padding: 0 15px 10px;">
+
+                                <!-- SOCIAL SHARE -->
+                                <table cellpadding="0" cellspacing="0" border="0" align="left" class="social_share" style="border-collapse: collapse;">
+                                <tr>            
+                                <td align="center" class="icon">
+                                    <a href="http://www.oaciq.com" style="text-decoration: none; color: inherit;">
+                                    <img src="/images/fb_share_icon.jpg" width="44" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                                    </a> 
+                                </td>
+                                <td align="center" class="icon">
+                                    <a href="http://www.oaciq.com" style="text-decoration: none; color: inherit;">
+                                    <img src="/images/tw_share_icon.jpg" width="45" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                                    </a> 
+                                </td>
+                                <td align="center" class="icon">
+                                    <a href="http://www.oaciq.com" style="text-decoration: none; color: inherit;">
+                                    <img src="/images/li_share_icon.jpg" width="45" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                                    </a> 
+                                </td>
+                                </tr>
+                                </table>
+                                <!-- / SOCIAL SHARE -->
+
+                            </td>
+                            </tr>
+                            </table>  
+                        </td>    
+                        </tr>
+                        </table>                    
+                    </div>                
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    </tr>
+                    </table>
+                    <![endif]-->                                        
+                </td>
+                </tr>
+                </table>
+            </td>
+            </tr>
+            </table>
+            <!-- / SECTION 7 -->
+            
+            <!-- SPACER -->
+            <table cellpadding="0" cellspacing="0" width="100%" class="spacer" border="0" align="center" style="border-collapse: collapse; font-size: 0;">
+            <tr>
+            <td class="inner" style="padding: 10px 0; font-size: 0;">
+               &nbsp;  
+            </td>
+            </tr>
+            </table>
+            <!-- / SPACER -->
+            
+            <!-- SECTION 8 -->
+            <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" class="section_8" style="border-collapse: collapse;">
+            <tr>
+            <td class="inner blue" style="background: #1b77bd; padding: 10px;">
+                <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                <tr>
+                <td class="row" style="font-size: 0; text-align: center;">
+                    <!--[if (gte mso 9)|(IE)]>
+                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                    <tr>
+                    <td align="center" valign="top" width="40%">
+                    <![endif]-->
+                    <div class="col-social-title" style="min-width: 265px; max-width: 265px; display: inline-block; font-size: 16px; vertical-align: top; width: 100%;">
+                        <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                        <tr>    
+                        <td align="left" class="font_fallback title_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-weight: 800; font-size: 24px; padding: 20px 0 0 20px; line-height: 1.2;">
+                            <span class="font title" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #ffffff; font-weight: 800; font-size: 24px; line-height: 1.2;">MÉDIAS SOCIAUX</span>   
+                        </td>
+                        </tr>
+                        <tr>    
+                        <td align="left" class="font_fallback tagline_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-weight: 400; font-size: 16px; padding: 0 0 0 20px; line-height: 1.2;">
+                            <span class="font tagline" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #ffffff; font-weight: 400; font-size: 16px; line-height: 1.2;">Partager avec vos réseaux!</span>   
+                        </td>
+                        </tr>    
+                        </table>                    
+                    </div>            
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    <td  align="center" valign="top" width="60%">
+                    <![endif]--> 
+                    <div class="col-social-img" style="min-width: 315px; max-width: 315px; display: inline-block; font-size: 16px; vertical-align: top; width: 100%;">
+                        <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                        <tr>
+                        <td align="center" class="img">
+                             <img src="/images/social_header.png" width="315" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                        </td>    
+                        </tr>
+                        </table>                    
+                    </div>                
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    </tr>
+                    </table>
+                    <![endif]-->                                        
+                </td>
+                </tr>
+                <tr>
+                <td class="row offset" style="font-size: 0; text-align: center; padding: 15px 0 0;">
+                    <!--[if (gte mso 9)|(IE)]>
+                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                    <tr>
+                    <td align="center" valign="top" width="50%">
+                    <![endif]-->
+                    <div class="col-2" style="display: inline-block; font-size: 16px; vertical-align: top; width: 100%; min-width: 250px; max-width: 290px;">
+                        <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">                        
+                        <tr>
+                        <td align="center" class="module_wrap" style="padding: 5px;">
+                            <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" class="module" style="border-collapse: collapse; background: #ffffff;">
+                            <tr>    
+                            <td align="left" class="font_fallback top_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-weight: 400; font-size: 13px; padding: 10px 15px 0;">
+                                <span class="font top" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-weight: 400; font-size: 13px;">À partager</span>   
+                            </td>
+                            </tr>
+                            <tr>    
+                            <td align="left" class="font_fallback link_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-weight: 800; font-size: 16px; padding: 0 15px 8px; line-height: 1.2;">
+                                <span class="font link" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-weight: 800; font-size: 16px; line-height: 1.2;">Lacopropriété.info</span>   
+                            </td>
+                            </tr>
+                            <tr>    
+                            <td align="left" class="font_fallback title_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #f47b25; font-weight: 800; font-size: 15px; padding: 0 15px 10px; line-height: 1.2;">
+                                <span class="font title" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #f47b25; font-weight: 800; font-size: 15px; line-height: 1.2;">Divise ou indivise?</span>   
+                            </td>
+                            </tr>
+                            <tr>    
+                            <td align="left" class="font_fallback text_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-weight: 400; font-size: 13px; padding: 0 15px 10px;">
+                                <span class="font text" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-weight: 400; font-size: 13px;">Pour aider vos clients à distinguer ces deux types de copropriétés !<br><br></span>   
+                            </td>
+                            </tr>
+                            <!--[if (gte mso 9)|(IE)]>
+                            <tr>    
+                            <td style="font-size:0;padding-bottom:5px;">
+                            &nbsp;
+                            </td>
+                            </tr>
+                            <![endif]-->
+                            <tr>    
+                            <td align="left" class="social_share_wrap" style="padding: 0 15px 10px;">
+
+                                <!-- SOCIAL SHARE -->
+                                <table cellpadding="0" cellspacing="0" border="0" align="left" class="social_share" style="border-collapse: collapse;">
+                                <tr>            
+                                <td align="center" class="icon">
+                                    <a href="http://www.oaciq.com" style="text-decoration: none; color: inherit;">
+                                    <img src="/images/fb_share_icon.jpg" width="44" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                                    </a> 
+                                </td>
+                                <td align="center" class="icon">
+                                    <a href="http://www.oaciq.com" style="text-decoration: none; color: inherit;">
+                                    <img src="/images/tw_share_icon.jpg" width="45" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                                    </a> 
+                                </td>
+                                <td align="center" class="icon">
+                                    <a href="http://www.oaciq.com" style="text-decoration: none; color: inherit;">
+                                    <img src="/images/li_share_icon.jpg" width="45" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                                    </a> 
+                                </td>
+                                </tr>
+                                </table>
+                                <!-- / SOCIAL SHARE -->
+
+                            </td>
+                            </tr>
+                            </table>
+                        </td>
+                        </tr>
+                        </table> 
+                    </div>            
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    <td  align="center" valign="top" width="50%">
+                    <![endif]--> 
+                    <div class="col-2" style="display: inline-block; font-size: 16px; vertical-align: top; width: 100%; min-width: 250px; max-width: 290px;">
+                        <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                        <tr>
+                        <td align="center" class="module_wrap" style="padding: 5px;">
+                            <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" class="module" style="border-collapse: collapse; background: #ffffff;">
+                            <tr>    
+                            <td align="left" class="font_fallback top_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-weight: 400; font-size: 13px; padding: 10px 15px 0;">
+                                <span class="font top" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-weight: 400; font-size: 13px;">À partager</span>   
+                            </td>
+                            </tr>
+                            <tr>    
+                            <td align="left" class="font_fallback link_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-weight: 800; font-size: 16px; padding: 0 15px 8px; line-height: 1.2;">
+                                <span class="font link" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-weight: 800; font-size: 16px; line-height: 1.2;">Protégez-vous.ca</span>   
+                            </td>
+                            </tr>
+                            <tr>    
+                            <td align="left" class="font_fallback title_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #f47b25; font-weight: 800; font-size: 15px; padding: 0 15px 10px; line-height: 1.2;">
+                                <span class="font title" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #f47b25; font-weight: 800; font-size: 15px; line-height: 1.2;">Connaissez-vous bien la Loi sur le courtage immobilier?</span>   
+                            </td>
+                            </tr>
+                            <tr>    
+                            <td align="left" class="font_fallback text_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-weight: 400; font-size: 13px; padding: 0 15px 10px;">
+                                <span class="font text" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-weight: 400; font-size: 13px;">Informez les consommateurs des protections offertes par l’OACIQ.</span>   
+                            </td>
+                            </tr>
+                            <tr>    
+                            <td align="left" class="social_share_wrap" style="padding: 0 15px 10px;">
+
+                                <!-- SOCIAL SHARE -->
+                                <table cellpadding="0" cellspacing="0" border="0" align="left" class="social_share" style="border-collapse: collapse;">
+                                <tr>            
+                                <td align="center" class="icon">
+                                    <a href="http://www.oaciq.com" style="text-decoration: none; color: inherit;">
+                                    <img src="/images/fb_share_icon.jpg" width="44" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                                    </a> 
+                                </td>
+                                <td align="center" class="icon">
+                                    <a href="http://www.oaciq.com" style="text-decoration: none; color: inherit;">
+                                    <img src="/images/tw_share_icon.jpg" width="45" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                                    </a> 
+                                </td>
+                                <td align="center" class="icon">
+                                    <a href="http://www.oaciq.com" style="text-decoration: none; color: inherit;">
+                                    <img src="/images/li_share_icon.jpg" width="45" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                                    </a> 
+                                </td>
+                                </tr>
+                                </table>
+                                <!-- / SOCIAL SHARE -->
+
+                            </td>
+                            </tr>
+                            </table>  
+                        </td>    
+                        </tr> 
+                        </table>                    
+                    </div>                
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    </tr>
+                    </table>
+                    <![endif]-->                                        
+                </td>
+                </tr>
+                </table>
+            </td>
+            </tr>
+            </table>
+            <!-- / SECTION 8 -->
+            
+            <!-- SPACER -->
+            <table cellpadding="0" cellspacing="0" width="100%" class="spacer" border="0" align="center" style="border-collapse: collapse; font-size: 0;">
+            <tr>
+            <td class="inner" style="padding: 10px 0; font-size: 0;">
+               &nbsp;  
+            </td>
+            </tr>
+            </table>
+            <!-- / SPACER -->
+            
+            <!-- SECTION 9 -->
+            <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" class="section_9" style="border-collapse: collapse;">
+            <tr>
+            <td class="inner blue" style="background: #1b77bd; padding: 10px;">
+                <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                <tr>
+                <td class="row" style="font-size: 0; text-align: center;">
+                    <!--[if (gte mso 9)|(IE)]>
+                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+                    <tr>
+                    <td align="center" valign="top" width="40%">
+                    <![endif]-->
+                    <div class="col-social-title" style="min-width: 265px; max-width: 265px; display: inline-block; font-size: 16px; vertical-align: top; width: 100%;">
+                        <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                        <tr>    
+                        <td align="left" class="font_fallback title_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-weight: 800; font-size: 24px; padding: 20px 0 0 20px; line-height: 1.2;">
+                            <span class="font title" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #ffffff; font-weight: 800; font-size: 24px; line-height: 1.2;">MÉDIAS SOCIAUX</span>   
+                        </td>
+                        </tr>
+                        <tr>    
+                        <td align="left" class="font_fallback tagline_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-weight: 400; font-size: 16px; padding: 0 0 0 20px; line-height: 1.2;">
+                            <span class="font tagline" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #ffffff; font-weight: 400; font-size: 16px; line-height: 1.2;">Partager avec vos réseaux!</span>   
+                        </td>
+                        </tr>    
+                        </table>                    
+                    </div>            
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    <td  align="center" valign="top" width="60%">
+                    <![endif]--> 
+                    <div class="col-social-img" style="min-width: 315px; max-width: 315px; display: inline-block; font-size: 16px; vertical-align: top; width: 100%;">
+                        <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                        <tr>
+                        <td align="center" class="img">
+                             <img src="https://s19.postimg.org/da4gfjxir/social_header.png" width="315" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                        </td>    
+                        </tr>
+                        </table>                    
+                    </div>                
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    </tr>
+                    </table>
+                    <![endif]-->                                        
+                </td>
+                </tr>
+                <tr>
+                <td class="module_wrap" style="padding: 20px 5px 5px;">                   
+                    <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                    <tr>
+                    <td align="center" class=" col">
+                        <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" class="module" style="border-collapse: collapse; background: #ffffff;">
+                        <tr>    
+                        <td align="left" class="font_fallback top_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-weight: 400; font-size: 13px; padding: 10px 15px 0;">
+                            <span class="font top" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-weight: 400; font-size: 13px;">À partager</span>   
+                        </td>
+                        </tr>
+                        <tr>    
+                        <td align="left" class="font_fallback link_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-weight: 800; font-size: 16px; padding: 0 15px 8px; line-height: 1.2;">
+                            <span class="font link" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-weight: 800; font-size: 16px; line-height: 1.2;">Lacopropriété.info</span>   
+                        </td>
+                        </tr>
+                        <tr>    
+                        <td align="left" class="font_fallback title_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #f47b25; font-weight: 800; font-size: 15px; padding: 0 15px 10px; line-height: 1.2;">
+                            <span class="font title" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #f47b25; font-weight: 800; font-size: 15px; line-height: 1.2;">Divise ou indivise?</span>   
+                        </td>
+                        </tr>
+                        <tr>    
+                        <td align="left" class="font_fallback text_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-weight: 400; font-size: 13px; padding: 0 15px 10px;">
+                            <span class="font text" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-weight: 400; font-size: 13px;">Même si la majorité des visites libres se déroulent sans problème, mieux vaut être prudent pour éviter des mauvaises surprises. Voici un rappel de quelques précautions à prendre avant que la visite libre ne commence.</span>   
+                        </td>
+                        </tr>
+                        <tr>    
+                        <td align="left" class="social_share_wrap" style="padding: 0 15px 10px;">
+
+                            <!-- SOCIAL SHARE -->
+                            <table cellpadding="0" cellspacing="0" border="0" align="left" class="social_share" style="border-collapse: collapse;">
+                            <tr>            
+                            <td align="center" class="icon">
+                                <a href="http://www.oaciq.com" style="text-decoration: none; color: inherit;">
+                                <img src="/images/fb_share_icon.jpg" width="44" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                                </a> 
+                            </td>
+                            <td align="center" class="icon">
+                                <a href="http://www.oaciq.com" style="text-decoration: none; color: inherit;">
+                                <img src="/images/tw_share_icon.jpg" width="45" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                                </a> 
+                            </td>
+                            <td align="center" class="icon">
+                                <a href="http://www.oaciq.com" style="text-decoration: none; color: inherit;">
+                                <img src="/images/li_share_icon.jpg" width="45" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                                </a> 
+                            </td>
+                            </tr>
+                            </table>
+                            <!-- / SOCIAL SHARE -->
+
+                        </td>
+                        </tr>
+                        </table>
+                    </td>
+                    </tr>
+                    </table>
+                </td>
+                </tr>
+                </table>
+            </td>
+            </tr>
+            </table>
+            <!-- / SECTION 9 -->
+            
+            <!-- SPACER -->
+            <table cellpadding="0" cellspacing="0" width="100%" class="spacer" border="0" align="center" style="border-collapse: collapse; font-size: 0;">
+            <tr>
+            <td class="inner" style="padding: 10px 0; font-size: 0;">
+               &nbsp;  
+            </td>
+            </tr>
+            </table>
+            <!-- / SPACER -->
+            
+            <!-- SECTION 10 -->
+            <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" class="section_10" style="border-collapse: collapse;">            
+            <tr>
+            <td class="inner white" style="background: #ffffff; padding: 30px 10px 20px 30px;">
+                <table cellpadding="0" cellspacing="0" width="100%" class="wrap" border="0" align="center" style="border-collapse: collapse;">
+                <tr>    
+                <td align="left" class="font_fallback main_title_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-weight: 800; font-size: 24px; line-height: 1.2; padding: 0 0 10px;">
+                    <span class="font main_title" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #91278f; font-weight: 800; font-size: 24px; line-height: 1.2;">AVIS : SUSPENSION / RÉVOCATION / CONDITIONS / RESTRICTIONS <br>DE PERMIS</span>   
+                </td>
+                </tr>                
+                <tr>
+                <td align="left" class="separator" style="padding-bottom: 25px; font-size: 0; padding: 5px 0;">
+                    <table cellpadding="0" cellspacing="0" border="0" align="left" width="50" style="border-collapse: collapse;">
+                    <tr>            
+                    <td align="center" class="inner" style="padding-bottom: 2px; font-size: 0; padding: 1px 0; background: #ffffff;">
+                        &nbsp;
+                    </td>
+                    </tr>
+                    </table>
+                </td>
+                </tr>                
+                <tr>    
+                <td align="left" class="font_fallback text_1_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #91278f; font-size: 14px; font-weight: 400; padding: 0 0 20px;">
+                    <span class="font title text_1" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #91278f; font-size: 14px; font-weight: 400;">Voici la liste des personnes visées par de récents avis du <strong>comité de délivrance et de maintien des permis</strong> :</span>   
+                </td>
+                </tr>                
+                <tr>    
+                <td align="left" class="font_fallback list_1_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-size: 14px; font-weight: 400; padding: 0 30px 20px;">
+                     <ul style="Margin:0; padding:0;">
+                        <li style="Margin:0 0 1em; list-style:disc inside; mso-special-format:bullet;">
+                           <span class="font" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-size: 14px; font-weight: 400;"><a href="http://www.oaciq.com" style="text-decoration: underline; color: #706f70; font-size: 14px;">Mathieu Charbonneau (Dossier : CDMPT-16-G2579)</a></span>
+                        </li>                        
+                    </ul>
+ 
+                </td>
+                </tr> 
+                <tr>    
+                <td align="left" class="font_fallback text_2_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #91278f; font-size: 14px; font-weight: 400; padding: 0 0 20px;">
+                    <span class="font title text_2" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #91278f; font-size: 14px; font-weight: 400;">Voici la liste des personnes visées par de récents avis du comité de discipline :</span>   
+                </td>
+                </tr>                
+                <tr>    
+                <td align="left" class="font_fallback list_2_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-size: 14px; font-weight: 400; padding: 0 30px 20px;">
+                     <ul style="Margin:0; padding:0;">
+                        <li style="Margin:0 0 1em; list-style:disc inside; mso-special-format:bullet;">
+                           <span class="font" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-size: 14px; font-weight: 400;"><a href="http://www.oaciq.com" style="text-decoration: underline; color: #706f70; font-size: 14px;">Christine Brodeur (Dossier : 33-15-1848)</a></span>
+                        </li>
+                        <li style="Margin:0 0 1em; list-style:disc inside; mso-special-format:bullet;">
+                           <span class="font" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-size: 14px; font-weight: 400;"><a href="http://www.oaciq.com" style="text-decoration: underline; color: #706f70; font-size: 14px;">Sylvie Paradis (Dossier : 33-15-1855)</a></span>
+                        </li>
+                    </ul>
+ 
+                </td>
+                </tr>
+                <tr>    
+                <td align="left" class="font_fallback text_3_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #91278f; font-size: 14px; font-weight: 400; padding: 0 0 20px;">
+                    <span class="font title text_3" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #91278f; font-size: 14px; font-weight: 400;">Vous pouvez consulter le texte complet de ces avis en cliquant sur les liens fournis.</span>   
+                </td>
+                </tr>
+                </table>
+            </td>
+            </tr>
+            </table>
+            <!-- / SECTION 10 -->
+            
+            <!-- SPACER -->
+            <table cellpadding="0" cellspacing="0" width="100%" class="spacer" border="0" align="center" style="border-collapse: collapse; font-size: 0;">
+            <tr>
+            <td class="inner" style="padding: 10px 0; font-size: 0;">
+               &nbsp;  
+            </td>
+            </tr>
+            </table>
+            <!-- / SPACER -->
+            
+            <!-- SECTION 11 -->
+            <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" class="section_11" style="border-collapse: collapse;">            
+            <tr>
+            <td>
+                 <img src="/images/banniere.jpg" width="600" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+            </td>
+            </tr>
+            <tr>
+            <td class="inner white" style="background: #ffffff; padding: 0 10px 20px 30px;">
+                <table cellpadding="0" cellspacing="0" width="100%" class="wrap" border="0" align="center" style="border-collapse: collapse;">
+                <tr>    
+                <td align="left" class="font_fallback title_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-weight: 800; font-size: 22px; line-height: 1.2; padding: 25px 0 15px;">
+                    <span class="font title" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-weight: 800; font-size: 22px; line-height: 1.2;">FORMATION CONTINUE</span>   
+                </td>
+                </tr>
+                <tr>
+                <td align="left" class="separator" style="padding-bottom: 25px; font-size: 0; padding: 5px 0;">
+                    <table cellpadding="0" cellspacing="0" border="0" align="left" width="50" style="border-collapse: collapse;">
+                    <tr>            
+                    <td align="center" class="inner" style="padding-bottom: 2px; font-size: 0; padding: 1px 0; background: #ffffff;">
+                        &nbsp;
+                    </td>
+                    </tr>
+                    </table>
+                </td>
+                </tr>
+                <tr>    
+                <td align="left" class="font_fallback text_1_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-size: 18px; font-weight: 400; padding: 0 0 20px;">
+                    <span class="font text_1" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-size: 18px; font-weight: 400;">Parce que la protection du public passe aussi par votre formation, 
+                    choisissez vos activités parmi notre répertoire de plus de <br><strong>300 formations accréditées</strong>.</span>   
+                </td>
+                </tr>
+                <tr>    
+                <td align="left" class="font_fallback text_2_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #706f70; font-size: 18px; font-weight: 400; padding: 0 0 20px;">
+                    <span class="font text_2" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #706f70; font-size: 18px; font-weight: 400;">En août, plus de <a href="http://www.oaciq.com" style="text-decoration: underline; color: #f47b25; font-size: 18px; font-weight: 800;">30 formations</a> vous sont proposées !</span>   
+                </td>
+                </tr>
+                <tr>
+                <td align="center">
+                    <!-- BUTTON -->
+                    <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                    <tr>
+                    <td align="center" class="button_wrap" style="padding: 10px 15px 10px 0;">
+                        <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                        <tr>
+                        <td align="center" colspan="2">
+                        <table cellpadding="0" cellspacing="0" border="0" align="center" style="border-collapse: collapse;">
+                        <tr>
+                        <td align="center" class="btn_outer font_fallback" style="font-family: Arial, Helvetica, sans-serif; padding: 12px 45px; background: #f47b25; font-weight: bold; border-radius: 500px;">
+                            <span><a href="http://www.oaciq.com" class="font" style="text-decoration: none; font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #ffffff; font-size: 12px; font-weight: bold; display: block;">CONSULTER LE CALENDRIER</a></span>                            
+                        </td>    
+                        </tr>
+                        </table>
+                        </td>    
+                        </tr>
+                        </table>    
+                    </td>    
+                    </tr>
+                    </table>
+                    <!-- / BUTTON -->
+                </td>
+                </tr>
+                <tr>
+                <td align="center" class="link_wrap font_fallback" style="font-family: Arial, Helvetica, sans-serif; color: #f47b25; font-size: 13px; font-weight: 400; padding: 10px 0;">
+                    
+                    <a href="http://www.oaciq.com" class="font" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; text-decoration: underline; color: #f47b25; font-size: 13px; font-weight: 600;">Accéder au répertoire complet</a>                           
+                        
+                </td>
+                </tr>
+                </table>
+            </td>
+            </tr>
+            </table>
+            <!-- / SECTION 11 -->
+            
+            <!-- SPACER -->
+            <table cellpadding="0" cellspacing="0" width="100%" class="spacer" border="0" align="center" style="border-collapse: collapse; font-size: 0;">
+            <tr>
+            <td class="inner" style="padding: 10px 0; font-size: 0;">
+               &nbsp;  
+            </td>
+            </tr>
+            </table>
+            <!-- / SPACER -->
+            
+            <!-- FOOTER 1 -->
+            <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" class="footer" style="border-collapse: collapse;">
+            <tr>            
+            <td align="center" class="inner" style="background: #706f70; padding: 30px 10px 20px 30px;">                
+                <table cellpadding="0" cellspacing="0" width="100%" class="wrap" border="0" align="center" style="border-collapse: collapse;">
+                
+                <tr>                
+                <td align="center" colspan="2">
+                    <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                    <tr>            
+                    <td align="left" class="logo">
+                        <a href="http://www.oaciq.com" style="text-decoration: none; color: inherit;">
+                        <img src="/images/bottom_logo.png" width="100" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                        </a>    
+                    </td>
+                    <td align="right">
+                        <table cellpadding="0" cellspacing="0" border="0" align="right" class="top_social" style="border-collapse: collapse;">
+                        <tr>            
+                        <td align="center" class="icon" style="padding: 0 5px;">
+                            <a href="http://www.oaciq.com" style="text-decoration: none; color: inherit;">
+                            <img src="/images/fb_icon.png" width="28" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                            </a> 
+                        </td>
+                        <td align="center" class="icon" style="padding: 0 5px;">
+                            <a href="http://www.oaciq.com" style="text-decoration: none; color: inherit;">
+                            <img src="/images/tw_icon.png" width="28" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                            </a> 
+                        </td>
+                        <td align="center" class="icon" style="padding: 0 5px;">
+                            <a href="http://www.oaciq.com" style="text-decoration: none; color: inherit;">
+                            <img src="/images/li_icon.png" width="28" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                            </a> 
+                        </td>
+                        </tr>
+                        </table>
+                    </td>
+                    </tr>
+                    </table>                     
+                </td>
+                </tr>
+                <tr>                
+                <td align="left" class="font_fallback address_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-size: 12px; padding: 25px 0 5px;">
+                     <span class="font address" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #ffffff; font-size: 12px;">
+                         <a href="#" style="text-decoration: none; color: #ffffff; font-size: 12px;">4905, boulevard Lapinière</a>, bureau 2200<br>
+                         Brossard (Québec) J4Z 0G2
+                    </span>                  
+                </td>
+                </tr>
+                <tr>                
+                <td align="left" class="font_fallback contact_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-size: 12px; padding: 10px 0;">
+                     <span class="font contact" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #ffffff; font-size: 12px;">
+                         <a href="tel:450462800" class="tel" style="text-decoration: none; color: #ffffff; font-size: 12px;">450 462-9800</a><br>
+                         Sans frais <a href="tel:18004407170" class="tel" style="text-decoration: none; color: #ffffff; font-size: 12px;">1 800 440-7170</a>
+                    </span>                  
+                </td>
+                </tr><tr>                
+                <td align="left" class="font_fallback copy_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-size: 12px;">
+                     <span class="font copy" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #ffffff; font-size: 12px;">
+                        &copy; 2017 Organisme d'autoréglementation du courtage immobilier du Québec
+                    </span>                  
+                </td>
+                <td width="100" align="right" class="link_wrap" style="color: #ffffff; font-size: 13px;">
+                    <a href="mailto:info@oaciq.com" style="text-decoration: underline; color: #ffffff; font-size: 13px;">info@oaciq.com</a>
+                </td>    
+                </tr>
+                
+                </table>               
+            </td>    
+            </tr>            
+            </table>
+            <!-- / FOOTER 1 -->
+            
+            <!-- SPACER -->
+            <table cellpadding="0" cellspacing="0" width="100%" class="spacer" border="0" align="center" style="border-collapse: collapse; font-size: 0;">
+            <tr>
+            <td class="inner" style="padding: 10px 0; font-size: 0;">
+               &nbsp;  
+            </td>
+            </tr>
+            </table>
+            <!-- / SPACER -->
+            
+            <!-- FOOTER 2 -->
+            <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" class="footer" style="border-collapse: collapse;">
+            <tr>            
+            <td align="center" class="inner orange" style="background: #706f70; padding: 30px 10px 20px 30px;">                
+                <table cellpadding="0" cellspacing="0" width="100%" class="wrap" border="0" align="center" style="border-collapse: collapse;">
+                
+                <tr>                
+                <td align="center" colspan="2">
+                    <table cellpadding="0" cellspacing="0" width="100%" border="0" align="center" style="border-collapse: collapse;">
+                    <tr>            
+                    <td align="left" class="logo">
+                        <a href="http://www.oaciq.com" style="text-decoration: none; color: inherit;">
+                        <img src="/images/bottom_logo.png" width="100" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                        </a>    
+                    </td>
+                    <td align="right">
+                        <table cellpadding="0" cellspacing="0" border="0" align="right" class="top_social" style="border-collapse: collapse;">
+                        <tr>            
+                        <td align="center" class="icon" style="padding: 0 5px;">
+                            <a href="http://www.oaciq.com" style="text-decoration: none; color: inherit;">
+                            <img src="/images/fb_icon.png" width="28" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                            </a> 
+                        </td>
+                        <td align="center" class="icon" style="padding: 0 5px;">
+                            <a href="http://www.oaciq.com" style="text-decoration: none; color: inherit;">
+                            <img src="/images/tw_icon.png" width="28" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                            </a> 
+                        </td>
+                        <td align="center" class="icon" style="padding: 0 5px;">
+                            <a href="http://www.oaciq.com" style="text-decoration: none; color: inherit;">
+                            <img src="/images/li_icon.png" width="28" style="height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; max-width: 100%; display: block;">
+                            </a> 
+                        </td>
+                        </tr>
+                        </table>
+                    </td>
+                    </tr>
+                    </table>                     
+                </td>
+                </tr>
+                <tr>                
+                <td align="left" class="font_fallback address_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-size: 12px; padding: 25px 0 5px;">
+                     <span class="font address" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #ffffff; font-size: 12px;">
+                         <a href="#" style="text-decoration: none; color: #ffffff; font-size: 12px;">4905, boulevard Lapinière</a>, bureau 2200<br>
+                         Brossard (Québec) J4Z 0G2
+                    </span>                  
+                </td>
+                </tr>
+                <tr>                
+                <td align="left" class="font_fallback contact_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-size: 12px; padding: 10px 0;">
+                     <span class="font contact" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #ffffff; font-size: 12px;">
+                         <a href="tel:450462800" class="tel" style="text-decoration: none; color: #ffffff; font-size: 12px;">450 462-9800</a>
+                         Sans frais <a href="tel:18004407170" class="tel" style="text-decoration: none; color: #ffffff; font-size: 12px;">1 800 440-7170</a>
+                    </span>                  
+                </td>
+                </tr><tr>                
+                <td align="left" class="font_fallback copy_wrap" style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-size: 12px;">
+                     <span class="font copy" style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #ffffff; font-size: 12px;">
+                        &copy; 2017 Organisme d'autoréglementation du courtage immobilier du Québec
+                    </span>                  
+                </td>
+                <td width="130" align="right" class="link_wrap" style="color: #ffffff; font-size: 13px;">
+                    <a href="mailto:info@oaciq.com" style="text-decoration: underline; color: #ffffff; font-size: 13px;">info@oaciq.com</a>
+                </td>    
+                </tr>
+                <tr>                
+                
+                <td width="130" align="right" class="link_wrap bottom" colspan="2" style="color: #ffffff; font-size: 13px; padding: 10px 0 0;">
+                    <a href="[*unsubscription_url*]" style="text-decoration: underline; color: #ffffff; font-size: 13px;">Je veux me désabonner</a>
+                </td>    
+                </tr>
+                
+                </table>               
+            </td>    
+            </tr>            
+            </table>
+            <!-- / FOOTER 2 -->
+            
+        </td>    
+        </tr>
+        </table> 
+        <!-- / CENTER TABLE --> 
+
+        <!--[if (gte mso 9)|(IE)]>
+        </td>
+        </tr>
+        </table>
+        <![endif]-->
+        <!-- / OUTLOOK MAX-WIDTH -->
+        
+    </td>
+    </tr>
+    </table>
+    <!-- /Body Table -->
+    
+</body>
+</html>
+    

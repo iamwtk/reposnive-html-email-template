@@ -1,0 +1,118 @@
+.header {    
+    .inner {
+        padding: 10px;
+        .top_text {
+            color: $white;
+            font-size: 13px;
+            font-weight: 600;
+            padding-bottom: 15px;
+            span {
+                color: $white;
+                font-size: 13px;
+            }
+            a {
+                color: $white;
+                text-decoration: underline;
+                font-size: 13px;
+            }
+        }
+        .top_social {
+            .icon {
+                padding: 0 5px;
+            }
+        }
+        .tagline {
+            color: $white;
+            font-size: 12px;
+            padding: 5px 0;
+            span {
+                color: $white;
+                font-size: 12px;
+            }
+        }
+        .date {
+            color: $white;
+            font-size: 12px;
+            padding: 10px 0;
+            span {
+                color: $white;
+                font-size: 12px;
+            }
+        }
+        .bottom_text {
+            color: $white;
+            font-size: 12px;
+            span {
+                color: $white;
+                font-size: 12px;
+            }
+            a {
+                color: $white;
+                text-decoration: underline;
+                font-size: 12px;
+                font-weight: 600;
+            }
+        }
+        &.white {
+            .title_wrap {
+                color: $text;
+                font-weight: 800;
+                font-size: 22px;
+                padding: 10px 0;
+                span {
+                    color: $text;
+                    font-weight: 800;
+                    font-size: 22px;
+                }
+            }
+            .subtitle_wrap {
+                color: $text;
+                font-weight: 600;
+                font-size: 19px;
+                padding: 5px 0;
+                span {
+                    color: $text;
+                    font-weight: 600;
+                    font-size: 19px;
+                }
+            }
+            .col-2 {
+                max-width: 290px!important;
+                .sub-col {
+                    width: 50%;
+                    vertical-align: top;
+                    .big_wrap {
+                        color: $text;
+                        font-weight: 800;
+                        font-size: 30px;
+                        padding: 5px 0;
+                        span {
+                            color: $text;
+                            font-weight: 800;
+                            font-size: 30px;
+                        }
+                    }
+                    
+                    .small_wrap {
+                        color:#231f1f ;
+                        font-weight: 800;
+                        font-size: 12px;
+                        padding: 5px 0;
+                        span {
+                            color: #231f1f;
+                            font-weight: 800;
+                            font-size: 12px;
+                        }
+                    }
+                    
+                    &.bigger {
+                        width: 55%;
+                    }
+                    &.smaller {
+                        width: 45%;
+                    }
+                }
+            }
+        }
+    }
+}

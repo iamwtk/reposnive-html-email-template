@@ -1,0 +1,49 @@
+.section_1 {
+    .inner {
+        .full_title_wrap {
+            padding: 20px 10px 20px 30px;
+            .title_wrap {
+                color: $orange;
+                font-size: 18px;
+                font-weight: 800;
+                padding-left: 8px;
+                span {
+                    color: $orange;
+                    font-size: 18px;
+                    font-weight: 800;
+                }
+            }
+            .image_wrap {
+                width: 22px;
+            }
+        }
+        
+        &.bottom {
+            padding: 20px 10px 20px 30px;
+            
+            .title_wrap {
+                color: $text;
+                font-size: 24px;
+                font-weight: 800;
+                padding-bottom: 20px;
+                span {
+                    color: $text;
+                    font-size: 24px;
+                    font-weight: 800;
+                }
+            }
+            .text_1_wrap,
+            .text_2_wrap {
+                color: $text;
+                font-size: 13px;
+                font-weight: 400;
+                padding-bottom: 20px;
+                span {
+                    color: $text;
+                    font-size: 13px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}

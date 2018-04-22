@@ -1,0 +1,77 @@
+.section_4 {
+    .background {
+        background-size: cover;
+        background-position: center;        
+        .inner {
+            padding: 30px 10px 20px 30px;
+            .title_wrap {
+                color: $white;
+                font-size: 22px;
+                font-weight: 800;
+                padding: 0 0 10px;
+                span {
+                    color: $white;
+                    font-size: 22px;
+                    font-weight: 800;
+                }
+            }
+            .separator {
+                font-size: 0!important;
+                padding: 5px 0 0;               
+                .inner {
+                    font-size: 0!important;
+                    padding: 0 0 2px 0;                    
+                }
+            }
+        }
+    }
+    .inner {
+        &.white {
+            padding: 20px 10px 20px 30px;
+            .main_title_wrap {
+                color: $text;
+                font-size: 24px;
+                font-weight: 800;
+                padding: 0 0 10px;
+                span {
+                    color: $text;
+                    font-size: 24px;
+                    font-weight: 800;
+                }
+            }
+            .text_1_wrap,
+            .text_2_wrap {
+                color: $text;
+                font-size: 13px;
+                font-weight: 400;
+                padding: 0 0 20px;
+                span {
+                    color: $text;
+                    font-size: 13px;
+                    font-weight: 400;
+                }
+            }
+            .subtitle_wrap {
+                color: $text;
+                font-size: 14px;
+                font-weight: 800;
+                span {
+                    color: $text;
+                    font-size: 14px;
+                    font-weight: 800;
+                }
+            }
+            .cta_text_wrap {
+                color: $text;
+                font-size: 18px;
+                font-weight: 800;
+                padding: 0 0 10px;
+                span {
+                    color: $text;
+                    font-size: 18px;
+                    font-weight: 800;
+                }
+            }
+        }
+    }
+}

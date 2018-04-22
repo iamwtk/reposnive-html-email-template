@@ -1,0 +1,63 @@
+.footer {
+    .inner {
+        background: $text;
+        padding: 30px 10px 20px 30px;
+        .logo {}
+        .top_social {
+            .icon {
+                padding: 0 5px;
+            }
+        }
+        .address_wrap {
+            color: $white;
+            font-size: 12px;
+            padding: 25px 0 5px;
+            span {
+                color: $white!important;
+                font-size: 12px!important;
+                a {
+                    color: $white!important;
+                    text-decoration: none!important;
+                    font-size: 12px;
+                }
+            }
+        }
+        .contact_wrap {
+            color: $white;
+            font-size: 12px;
+            padding: 10px 0;
+            span {
+                color: $white;
+                font-size: 12px;
+                a {
+                    color: $white!important;
+                    text-decoration: none!important;
+                    font-size: 12px;
+                }
+            }
+        }
+        .copy_wrap {
+            color: $white;
+            font-size: 12px;
+            span {
+                color: $white;
+                font-size: 12px;
+            }
+        }
+        .link_wrap {
+            color: $white;
+            font-size: 13px;
+            
+            a {
+                color: $white!important;
+                text-decoration: underline;
+                font-size: 13px;
+            }
+            &.bottom {
+                padding: 10px 0 0;
+            }
+        }
+    }
+}
+
+

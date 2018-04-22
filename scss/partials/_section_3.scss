@@ -1,0 +1,33 @@
+.section_3 {
+    .col-2 {
+        .col_wrap {
+            padding: 50px 20px 0;
+                        
+            .title_wrap {
+                color: $white;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 1.2;
+                padding: 0 0 20px;
+                span {
+                    color: $white;
+                    font-weight: 600;
+                    font-size: 22px;
+                    line-height: 1.2;
+                }
+            }
+            .text_1_wrap,
+            .text_2_wrap{
+                color: $white;
+                font-size: 13px;
+                font-weight: 400;
+                padding: 0 0 20px;
+                span {
+                    color: $white;
+                    font-size: 13px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}

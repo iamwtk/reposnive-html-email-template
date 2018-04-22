@@ -1,0 +1,114 @@
+.section_9 {
+    .inner {
+        padding: 10px;
+        .col-social-title {
+            @extend .col;
+            min-width: 265px;
+            max-width: 265px;
+            .title_wrap {
+                color: $white;
+                font-weight: 800;
+                font-size: 24px;
+                padding: 20px 0 0 20px;
+                line-height: 1.2;
+                span {
+                    color: $white;
+                    font-weight: 800;
+                    font-size: 24px;
+                    line-height: 1.2;
+                }
+            }
+            .tagline_wrap {
+                color: $white;
+                font-weight: 400;
+                font-size: 16px;
+                padding: 0 0 0 20px;
+                line-height: 1.2;
+                span {
+                    color: $white;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 1.2;
+                }
+            }
+        }
+        .col-social-img {
+            @extend .col;
+            min-width: 315px;
+            max-width: 315px;
+        }
+        .module_wrap {
+            padding: 20px 5px 5px;
+            .module {
+                background: $white;
+                .top_wrap {
+                    color: $text;
+                    font-weight: 400;
+                    font-size: 13px;
+                    padding: 10px 15px 0;
+                    span {
+                        color: $text;
+                        font-weight: 400;
+                        font-size: 13px;
+                    }
+                }
+                .hashtag_wrap {
+                    color: $blue;
+                    font-weight: 800;
+                    font-size: 32px;
+                    padding: 0 15px 20px;
+                    span {
+                        color: $blue;
+                        font-weight: 800;
+                        font-size: 32px;
+                    }
+                }
+                .link_wrap {
+                    color: $text;
+                    font-weight: 800;
+                    font-size: 16px;
+                    padding: 0 15px 8px;
+                    line-height: 1.2;
+                    span {
+                        color: $text;
+                        font-weight: 800;
+                        font-size: 16px;
+                        line-height: 1.2;
+                    }
+                }
+                .title_wrap {
+                    color: $orange;
+                    font-weight: 800;
+                    font-size: 15px;
+                    padding: 0 15px 10px;
+                    line-height: 1.2;
+                    span {
+                        color: $orange;
+                        font-weight: 800;
+                        font-size: 15px;
+                        line-height: 1.2;
+                    }
+                }
+                .text_wrap {
+                    color: $text;
+                    font-weight: 400;
+                    font-size: 13px;
+                    padding: 0 15px 10px;
+                    span {
+                        color: $text;
+                        font-weight: 400;
+                        font-size: 13px;
+                    }
+                }
+                .social_share_wrap {
+                    padding: 0 15px 10px;
+                }
+                &.big {
+                    .social_share_wrap {
+                        padding: 5px 15px 10px;
+                    }
+                }
+            }
+        }
+    }
+}
